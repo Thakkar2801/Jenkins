@@ -3,5 +3,5 @@
 
 def summation(data):
     M=sum(data)
-    M=M/len(data)
+    
     return M
