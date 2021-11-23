@@ -2,4 +2,5 @@
 # Source code for summation of two numbers
 
 def summation(data):
-    return sum(data)
+    M=Mul(data[0],data[1])
+    return M
