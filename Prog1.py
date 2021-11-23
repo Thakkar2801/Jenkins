@@ -2,5 +2,6 @@
 # Source code for summation of two numbers
 
 def summation(data):
-    M=data[0]*data[1]
+    M=sum(data)
+    M=M/len(data)
     return M
