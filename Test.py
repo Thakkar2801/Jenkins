@@ -10,8 +10,8 @@ class TestSum(unittest.TestCase):
         Test case to get average of two numbers
         """
         data = [3, 2]
-        result = summation(data)
-        self.assertEqual(result, 7)
+        result = Avg(data)
+        self.assertEqual(result, 2.5)
 
 if __name__ == '__main__':
     unittest.main()
