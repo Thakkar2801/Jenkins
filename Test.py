@@ -7,7 +7,7 @@ from Prog1 import summation
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
-        Test case to add two numbers
+        Test case to get average of two numbers
         """
         data = [3, 2]
         result = summation(data)
