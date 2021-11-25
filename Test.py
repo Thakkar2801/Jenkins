@@ -2,7 +2,7 @@
 # Test case for adding two numbers
 import unittest
 
-from Prog1 import Avg
+from Prog1 import SS
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
