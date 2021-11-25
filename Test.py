@@ -7,11 +7,11 @@ from Prog1 import Avg
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
-        Test case to get average of two numbers
+        Test case to get sum square of two numbers
         """
         data = [3, 2]
         result = Avg(data)
-        self.assertEqual(result, 3)
+        self.assertEqual(result, 25)
 
 if __name__ == '__main__':
     unittest.main()
