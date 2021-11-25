@@ -10,7 +10,7 @@ class TestSum(unittest.TestCase):
         Test case to get sum square of two numbers
         """
         data = [3, 2]
-        result = Avg(data)
+        result = SS(data)
         self.assertEqual(result, 25)
 
 if __name__ == '__main__':
